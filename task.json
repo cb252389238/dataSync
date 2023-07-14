@@ -1,0 +1,69 @@
+[
+  {
+    "name": "server",
+    "source_db": "database1",
+    "target_db": "database2",
+    "task": [
+      {
+        "name": "task1",
+        "source_table": "table1",
+        "target_table": "table2",
+        "fields": "id,int=>id,int|uid,int=>uid,int",
+        "source_primary_key": "id",
+        "target_primary_key": "id",
+        "offset_field": "id",
+        "start_val": 0,
+        "end_val": 0,
+        "where": ""
+      },
+      {
+        "name": "task2",
+        "source_table": "table1",
+        "target_table": "table2",
+        "fields": "id,int=>id,int|reward_status,int=>status,int|create_time,datetime=>create_time,int|update_time,datetime=>update_time,int",
+        "source_primary_key": "id",
+        "target_primary_key": "id",
+        "offset_field": "id",
+        "start_val": 0,
+        "end_val": 0,
+        "where": ""
+      },
+      {
+        "name": "task3",
+        "source_table": "table1",
+        "target_table": "table2",
+        "fields": "id,int=>id,int|create_time,datetime=>create_time,int|update_time,datetime=>update_time,int",
+        "source_primary_key": "id",
+        "target_primary_key": "id",
+        "offset_field": "id",
+        "start_val": 0,
+        "end_val": 0,
+        "where": ""
+      },
+      {
+        "name": "task4",
+        "source_table": "table1",
+        "target_table": "table2",
+        "fields": "id,int=>id,int|tag_title,string=>title,string|create_time,datetime=>create_time,int|update_time,datetime=>update_time,int",
+        "source_primary_key": "id",
+        "target_primary_key": "id",
+        "offset_field": "id",
+        "start_val": 0,
+        "end_val": 0,
+        "where": ""
+      },
+      {
+        "name": "task4",
+        "source_table": "table1",
+        "target_table": "table2",
+        "fields": "id,int=>id,int",
+        "source_primary_key": "id",
+        "target_primary_key": "id",
+        "offset_field": "id",
+        "start_val": 0,
+        "end_val": 0,
+        "where": ""
+      },
+    ]
+  }
+]
